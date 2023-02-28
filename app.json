@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "fastnfresh",
+    "slug": "fastnfresh",
+    "version": "7.0",
+    "jsEngine": "hermes",
+    "scheme": "fastnfresh",
+    "orientation": "portrait",
+    "icon": "./assets/splash.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "versionCode": 7,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/splash.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.bharatfullstack.fastnfresh",
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5ac4cbf3-2ca0-4ca2-a429-0b0c111d5b12"
+      }
+    }
+  }
+}
